@@ -20,8 +20,7 @@ Un motor de maquetación de PDFs ultra-eficiente y agnóstico construido sobre *
 Asegúrate de contar con las siguientes dependencias instaladas en tu proyecto de Node.js:
 
 ```bash
-npm install pdfkit-table
-npm install -D typescript @types/node
+npm install @piscisdev/pdf-auto
 
 ```
 
@@ -30,7 +29,7 @@ npm install -D typescript @types/node
 ### 1. Inicialización Base
 
 ```typescript
-import { PDFAuto } from './core/pdf-auto';
+import { PDFAuto } from '@piscisdev/pdf-auto';
 
 const pdf = new PDFAuto({
   size: 'A4',
