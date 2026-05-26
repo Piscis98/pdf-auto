@@ -31,9 +31,9 @@ async function runGridTest() {
   });
 
   // URL de prueba o Buffer (puedes reemplazarlo por una ruta local o tu Azure Blob URL)
-  const logoUrl = 'https://controlf.blob.core.windows.net/vumservice/assets/logos_empresa/logo-vym.png';
+  const logoUrl = 'https://yavuzceliker.github.io/sample-images/image-5.jpg';
 
-  const logoUrl2='https://controlf.blob.core.windows.net/vumservice/assets/logos_empresa/logo-listos.png';
+  const logoUrl2='https://yavuzceliker.github.io/sample-images/image-1.jpg';
 
   // await pdf.addLogo(logoUrl);
 

@@ -14,7 +14,7 @@ async function runAzureTest() {
      .addText('Este PDF viaja por fragmentos binarios (PassThrough) directo al contenedor en la nube.');
 
   // Simulamos una URL de Azure o cualquier imagen web para la celda
-  const azureBlobImageUrl = 'https://controlf.blob.core.windows.net/vumservice/assets/logos_empresa/logo-vym.png';
+  const azureBlobImageUrl = 'https://yavuzceliker.github.io/sample-images/image-5.jpg';
 
   await pdf.addTable({
     headers: ['Icono', 'Descripción'],
