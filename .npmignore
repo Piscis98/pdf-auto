@@ -1,0 +1,37 @@
+# ==========================================
+# Archivos de desarrollo y código fuente
+# ==========================================
+src/
+test/
+tests/
+__tests__/
+
+# ==========================================
+# Herramientas de configuración e IDEs
+# ==========================================
+.github/
+.vscode/
+.idea/
+.gitignore
+.npmignore
+tsconfig.json
+package-lock.json
+
+# ==========================================
+# Documentación interna y variables locales
+# ==========================================
+.env
+.env.example
+docs/
+assets/
+*.png
+*.jpg
+*.jpeg
+CHANGELOG.md
+
+# ==========================================
+# Logs y temporales de sistema
+# ==========================================
+*.log
+npm-debug.log*
+.eslintcache
