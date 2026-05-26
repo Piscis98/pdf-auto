@@ -244,6 +244,6 @@ Este proyecto está bajo la **Licencia MIT**.
 * Copyright (c) 2026 **BAIRON STIVEN RAMIREZ MARIN** (`Piscis98`).
 * Portions Copyright (c) 2022 **Natan Cabral** (Conserva los términos y derechos originales aplicados al núcleo del lienzo).
 
-Consulte el archivo [LICENSE](https://www.google.com/search?q=./LICENSE) para obtener más detalles.
+Consulte el archivo [LICENSE](https://github.com/Piscis98/pdf-auto/blob/master/LICENSE) para obtener más detalles.
 
 ```
