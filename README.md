@@ -2,7 +2,7 @@
 
 Un motor de maquetación de PDFs ultra-eficiente y agnóstico construido sobre **PDFKit-Table** y **TypeScript**. Diseñado específicamente para sistemas que requieren alta disponibilidad, bajo consumo de memoria RAM y flujos automatizados que interactúan con almacenamiento local, remoto o proveedores de nube como Azure.
 
-[![npm version](https://img.shields.io/npm/v/@piscisdev/pdf-auto.svg?style=flat-square&color=1E3A8A)](https://www.npmjs.com/package/@piscisdev/pdf-auto)
+[![npm version](https://img.shields.io/npm/v/pdf-auto.svg?style=flat-square&color=1E3A8A)](https://www.npmjs.com/package/pdf-auto)
 [![license](https://img.shields.io/npm/l/@piscisdev/pdf-auto.svg?style=flat-square&color=4B5563)](./LICENSE)
 [![typescript](https://img.shields.io/badge/TypeScript-Ready-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
 [![environment](https://img.shields.io/badge/Node.js-%3E%3D18-green?style=flat-square&logo=node.js)](https://nodejs.org/)
@@ -24,7 +24,13 @@ Un motor de maquetación de PDFs ultra-eficiente y agnóstico construido sobre *
 
 ## 💻 Instalación
 
-Asegúrate de contar con la librería instalada en tu entorno de Node.js:
+Instalación recomendada
+
+```bash
+npm install pdf-auto
+
+```
+Paquete scoped (compatible)
 
 ```bash
 npm install @piscisdev/pdf-auto
@@ -38,7 +44,9 @@ npm install @piscisdev/pdf-auto
 A continuación se detalla un flujo punta a punta en **TypeScript** utilizando la API fluida del motor de renderizado:
 
 ```typescript
-import { PDFAuto } from '@piscisdev/pdf-auto';
+import { PDFAuto } from 'pdf-auto';//Recomendado
+//Compatible
+//import { PDFAuto } from '@piscisdev/pdf-auto';
 import * as fs from 'fs';
 
 async function generateReport() {
@@ -130,7 +138,9 @@ generateReport().catch(console.error);
 Gracias a la abstracción por streaming, puedes inyectar los bytes de tu PDF directamente al SDK de Azure a medida que se generan, optimizando los picos de consumo en RAM dentro de contenedores:
 
 ```typescript
-import { PDFAuto, AzureStorageAdapter } from '@piscisdev/pdf-auto';
+import { PDFAuto, AzureStorageAdapter } from 'pdf-auto';//Recomendado
+//Compatible
+//import { PDFAuto, AzureStorageAdapter } from '@piscisdev/pdf-auto';
 
 const storageProvider = new AzureStorageAdapter(
   process.env.AZURE_CONNECTION_STRING!,
