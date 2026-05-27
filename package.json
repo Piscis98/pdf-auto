@@ -1,6 +1,6 @@
 {
   "name": "@piscisdev/pdf-auto",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Motor de maquetación de PDFs ultra-eficiente sobre PDFKit-Table y TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
